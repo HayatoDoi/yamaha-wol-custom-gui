@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html onload="init()">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Wake On Lan page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="NetWorkMap">
+        <meta name="author" content="HayatoDoi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+        <script type="text/javascript" src="/custom/custom_gui_lib.js"></script>
+        <script src="pclist.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <table class="pure-table">
+                <tbody>
+                    <tr class="tr">
+                        <th width="10">No.</th>
+                        <th>MAC address</th>
+                        <th>IP address</th>
+                        <th>comment</th>
+                        <th>status</th>
+                        <th>wake on lan</th>
+                    </tr>
+                </tbody>
+                <tbody id="pclisttable"></tbody>
+            </table>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="wol.js"></script>
+    </body>
+</html>
